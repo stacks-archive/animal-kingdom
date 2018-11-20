@@ -1,0 +1,75 @@
+.Kingdom {
+  text-align: center;
+}
+
+img.rounded-circle {
+  height: 300px;
+  width: 300px;
+  margin: 30px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.territory {
+  background: no-repeat;
+  background-size: cover;
+  margin-top: -2rem;
+  margin-bottom:  2rem;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-top-color: rgb(196, 216, 229);
+  border-right-color: rgb(196, 216, 229);
+  border-bottom-color: rgb(196, 216, 229);
+  border-left-color: rgb(196, 216, 229);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.0470588) 0px 4px 4px;
+}
+
+.add-frame {
+  padding: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  position: relative;
+  margin: 1rem -15px 0;
+  margin-bottom: 2em;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-top-color: rgb(196, 216, 229);
+  border-right-color: rgb(196, 216, 229);
+  border-bottom-color: rgb(196, 216, 229);
+  border-left-color: rgb(196, 216, 229);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.0470588) 0px 4px 4px;
+  background-color: white;
+}
+
+.ruler {
+  padding-top: 25px;
+}

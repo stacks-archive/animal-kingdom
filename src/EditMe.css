@@ -1,0 +1,39 @@
+.EditMe .card-deck .card {
+  cursor: pointer;
+}
+
+.EditMe .card-deck .card:hover {
+  box-shadow:   rgba(33, 31, 109, 0.5) 0px 8px 8px;
+}
+
+.EditMe .border-primary {
+  border-color: rgb(33, 31, 109) !important;
+  box-shadow:   rgba(33, 31, 109, 0.5) 0px 4px 4px;
+}
+
+.EditMe .card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.EditMe h2 {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.EditMe h3 {
+  padding-bottom: 25px;
+}
+
+.EditMe .done {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.EditMe .done .btn {
+  width: 200px;
+}
+.EditMe .select-territory {
+  padding-top: 50px;
+}
