@@ -40,7 +40,6 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](#running-tests) for more information.
 
 ### `npm run build`
 
@@ -50,11 +49,18 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-See the section about [deployment](#deployment) for more information.
 
 ### Deployment
 
-This app includes deployment settings for Firebase. If you're deploying this
-on another service, you'll need to set CORS headers to allow requests from all
+If you are deploying this, you'll need to set cores headers to allow requests from all
 hosts otherwise you won't be able to sign in and other apps won't be able to load
 your animal and kingdom information.
+
+This code includes deployment settings for Firebase and Netlify in the `cors` directory:
+
+| Service  	| Files                      	|
+|----------	|----------------------------	|
+| Firebase 	| firebase.json, .firebaserc 	|
+| Netlify  	| _headers, _redirects       	|
+
+If you're deploying this on another service, you'll need to set CORS headers appropriately for that service.
