@@ -50,7 +50,27 @@ export const OTHER_KINGDOMS = [
     ruler: 'yannael_leborgne.id'
   },
   {
+      app: 'https://nervous-johnson-e8758f.netlify.com/',
+      ruler: 'harshkedia.id'
+  },
+  {
       app: 'https://thirsty-jang-0c0a17.netlify.com',
       ruler: 'ma1222042.id.blockstack'
+  },
+  {
+      app: 'https://elastic-yalow-5d7c5a.netlify.com',
+      ruler: 'kkomaz.id'
+  },
+  {
+      app: 'https://valsanimalkingdom.netlify.com',
+      ruler: 'valentin.blockstack.id'
+  },
+  {
+      app: 'https://dazzling-mclean-3dd6e2.netlify.com',
+      ruler: 'salil_gtm.id.blockstack'
+  },
+  {
+      app: 'https://optimistic-kepler-bb37b2.netlify.com/',
+      ruler: 'sagarchoudhary96.id.blockstack'
   }
 ]
