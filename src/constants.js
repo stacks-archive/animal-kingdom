@@ -45,4 +45,12 @@ export const OTHER_KINGDOMS = [
     app: 'http://localhost:3001',
     ruler: 'larz.id'
   },
+  {
+    app: 'https://decentralised-islands.netlify.com',
+    ruler: 'yannael_leborgne.id'
+  },
+  {
+      app: 'https://thirsty-jang-0c0a17.netlify.com',
+      ruler: 'ma1222042.id.blockstack'
+  }
 ]
