@@ -38,6 +38,26 @@ class OtherKingdoms extends Component {
             kingdoms[index].subjects = subjects
             this.setState({ subjects })
         })
+        .catch(error => {
+          console.log('problem loading subjects')
+          console.log(error)
+          kingdoms[index].subjects = []
+          kingdoms[index].error = true
+          this.setState({ kingdom })
+        })
+      })
+      .catch((error) => {
+        console.log('ruler not found')
+        console.log(error)
+        kingdoms[index] = {
+          error: true,
+          ruler: {
+            username: kingdom.ruler,
+            data: null,
+          },
+          subjects: [],
+          app: kingdom.app
+        }
       })
     })
   }
@@ -64,19 +84,34 @@ class OtherKingdoms extends Component {
               const protocol = kingdom.app.split('//')[0]
               const hostname = kingdom.app.split('//')[1]
               const planet = kingdom.app
-              const animal = kingdom.ruler.data.animal
-            return (
-              <Link
-                className="list-group-item list-group-item-action flex-column align-items-start"
-                to={`/kingdom/${protocol}/${hostname}/${kingdom.ruler.username}`}
-              >
-                <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">{ kingdom.ruler.username } the { animal.name }'s kingdom</h5>
-                  <span class="badge badge-primary badge-pill" title="Subjects">{ kingdom.subjects.length }</span>
-                </div>
-                <p class="mb-1">From planet { planet }</p>
-              </Link>
-            )
+              const animal = kingdom.error ? '' : kingdom.ruler.data.animal
+              if (kingdom.error) {
+                return (
+                  <div
+                    className="list-group-item list-group-item-action flex-column align-items-start"
+                    key={index}
+                  >
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">{ kingdom.ruler.username }'s kingdom can't be reached</h5>
+                    </div>
+                    <p class="mb-1">Is the planet { planet } under siege?</p>
+                  </div>
+                )
+              } else {
+                return (
+                  <Link
+                    className="list-group-item list-group-item-action flex-column align-items-start"
+                    to={`/kingdom/${protocol}/${hostname}/${kingdom.ruler.username}`}
+                    key={index}
+                  >
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">{ kingdom.ruler.username } the { animal.name }'s kingdom</h5>
+                      <span class="badge badge-primary badge-pill" title="Subjects">{ kingdom.subjects.length }</span>
+                    </div>
+                    <p class="mb-1">From planet { planet }</p>
+                  </Link>
+                )
+              }
             })}
             </div>
           }
