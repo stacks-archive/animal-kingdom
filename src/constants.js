@@ -72,5 +72,21 @@ export const OTHER_KINGDOMS = [
   {
       app: 'https://optimistic-kepler-bb37b2.netlify.com/',
       ruler: 'sagarchoudhary96.id.blockstack'
+  },
+  {
+      app: 'https://mystifying-bardeen-983642.netlify.com',
+      ruler: 'rattle99.id.blockstack'
+  },
+  {
+      app: 'https://stoic-leavitt-d86356.netlify.com/me',
+      ruler: 'azizahmed.id.blockstack'
+  },
+  {
+      app: 'https://frosty-leakey-8a24d2.netlify.com/',
+      ruler: 'superbadpeter.id.blockstack'
+  },
+  {
+      app: 'https://gallant-sinoussi-734e73.netlify.com',
+      ruler: 'ginxh.id.blockstack'
   }
 ]
