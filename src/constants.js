@@ -88,5 +88,17 @@ export const OTHER_KINGDOMS = [
   {
       app: 'https://gallant-sinoussi-734e73.netlify.com',
       ruler: 'ginxh.id.blockstack'
+  },
+  {
+        app: 'https://trusting-haibt-e87237.netlify.com',
+        ruler: 'charlied.id.blockstack'
+  },
+  {
+        app: 'https://dazzling-ptolemy-1e1411.netlify.com',
+        ruler: 'fivebyfive.id.blockstack'
+  },
+  {
+      app: 'https://planet.friedger.de',
+      ruler: 'friedger.id'
   }
 ]
