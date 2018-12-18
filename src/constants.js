@@ -100,5 +100,25 @@ export const OTHER_KINGDOMS = [
   {
       app: 'https://planet.friedger.de',
       ruler: 'friedger.id'
+  },
+  {
+      app: 'https://animal-kingdom.djnicholson.com',
+      ruler: 'djnicholson.id.blockstack'
+  },
+  {
+      app: 'https://vigilant-goldberg-43a99e.netlify.com',
+      ruler: 'samuelescarigo.id.blockstack'
+  },
+  {
+      app: 'https://condescending-wright-e66128.netlify.com/',
+      ruler: 'lindseywoo.id.blockstack'
+  },
+  {
+      app: 'https://trusting-stonebraker-af1ebc.netlify.com/',
+      ruler: 'ngerald51.id.blockstack'
+  },
+  {
+      app: 'https://stoic-williams-909dc6.netlify.com',
+      ruler: 'kimsk112.id.blockstack'
   }
 ]
