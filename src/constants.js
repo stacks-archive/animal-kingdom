@@ -120,5 +120,17 @@ export const OTHER_KINGDOMS = [
   {
       app: 'https://stoic-williams-909dc6.netlify.com',
       ruler: 'kimsk112.id.blockstack'
+  },
+  {
+      app: 'https://elastic-dijkstra-9f34ef.netlify.com',
+      ruler: 'csilverman.id.blockstack'
+  },
+  {
+      app: 'https://angry-jepsen-50bb19.netlify.com',
+      ruler: 'sandyhoover.id'
+  },
+  {
+      app: 'https://hopeful-meninsky-92fa7f.netlify.com',
+      ruler: 'quiottscuinn.id.blockstack'
   }
 ]
