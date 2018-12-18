@@ -38,6 +38,10 @@ export const EXPLORER_URL = 'https://explorer.blockstack.org'
 
 export const OTHER_KINGDOMS = [
   {
+    app: 'https://eloquent-lovelace-b148f0.netlify.com',
+    ruler: '5thdimension.id.blockstack'
+  },
+  {
     app: 'https://animal-kingdom-1.firebaseapp.com',
     ruler: 'larry.id'
   },
