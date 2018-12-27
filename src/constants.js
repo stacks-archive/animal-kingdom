@@ -144,5 +144,21 @@ export const OTHER_KINGDOMS = [
   {
       app: 'https://reverent-pasteur-a4900c.netlify.com/',
       ruler: 'dubiousdog.id.blockstack'
+  },
+  {
+      app: 'https://zealous-villani-bb5378.netlify.com',
+      ruler: 'jstrnbrg.id.blockstack'
+  },
+  {
+      app: 'https://zealous-cray-e48eb6.netlify.com',
+      ruler: 'trappier.id.blockstack'
+  },
+  {
+      app: 'https://animalkingdom5th.netlify.com',
+      ruler: '5thdimension.id.blockstack'
+  },
+  {
+      app: 'https://distracted-saha-09847b.netlify.com',
+      ruler: 'anthony_albertorio.id.blockstack'
   }
 ]
