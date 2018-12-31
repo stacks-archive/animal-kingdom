@@ -160,5 +160,21 @@ export const OTHER_KINGDOMS = [
   {
       app: 'https://distracted-saha-09847b.netlify.com',
       ruler: 'anthony_albertorio.id.blockstack'
+  },
+  {
+      app: 'https://modest-wescoff-dc0756.netlify.com',
+      ruler: 'pantherapardus.id.blockstack'
+  },
+  {
+      app: 'https://romantic-perlman-5483a9.netlify.com',
+      ruler: 'https://modest-wescoff-dc0756.netlify.com'
+  },
+  {
+      app: 'flamboyant-galileo-7f43b3.netlify.com',
+      ruler: 'livpayawal.id.blockstack'
+  },
+  {
+      app: 'https://modest-wescoff-dc0756.netlify.com',
+      ruler: 'pantherapardus.id.blockstack'
   }
 ]
