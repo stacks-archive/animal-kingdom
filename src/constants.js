@@ -176,5 +176,9 @@ export const OTHER_KINGDOMS = [
   {
       app: 'https://modest-wescoff-dc0756.netlify.com',
       ruler: 'pantherapardus.id.blockstack'
+  },
+  {
+      app: 'https://upbeat-williams-577db4.netlify.com/kingdom/',
+      ruler: 'wowbagger59.id.blockstack'
   }
 ]
