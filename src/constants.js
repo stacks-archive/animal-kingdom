@@ -184,5 +184,9 @@ export const OTHER_KINGDOMS = [
   {
       app: 'https://animal-kingdom-lh.netlify.com/',
       ruler: 'latenthero.id.blockstack'
+  },
+  {
+      app: 'https://confident-northcutt-143b95.netlify.com',
+      ruler: 'natthecat.id.blockstack'
   }
 ]
