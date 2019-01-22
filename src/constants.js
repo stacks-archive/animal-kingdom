@@ -196,5 +196,9 @@ export const OTHER_KINGDOMS = [
   {
       app: 'https://sharp-jones-174451.netlify.com',
       ruler: 'Jameshawkinsiii.id'
+  },
+  {
+      app: 'https://modest-chandrasekhar-0e9f62.netlify.com',
+      ruler: 'ID-1MhuTmakatYQR9tUF2ThtQ9woeCY92eWks'
   }
 ]
