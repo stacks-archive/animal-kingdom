@@ -200,5 +200,9 @@ export const OTHER_KINGDOMS = [
   {
       app: 'https://modest-chandrasekhar-0e9f62.netlify.com',
       ruler: 'ID-1MhuTmakatYQR9tUF2ThtQ9woeCY92eWks'
+  },
+  {
+      app: 'https://adoring-yalow-cca026.netlify.com',
+      ruler: 'edhenderson.id.blockstack'
   }
 ]
