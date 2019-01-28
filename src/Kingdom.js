@@ -137,7 +137,7 @@ class Kingdom extends Component {
           <div className="col-lg-12">
             <h2>Ruler {username}</h2>
             {rulerAnimal ?
-              <p><a href={`${EXPLORER_URL}/name/${username}`} target="_blank">{username}</a> is a {rulerAnimal.name} that rules over the {rulerTerritory.name}.</p>
+              <p><a href={`${EXPLORER_URL}/name/${username}`} target="_blank" rel="noopener noreferrer">{username}</a> is a {rulerAnimal.name} that rules over the {rulerTerritory.name}.</p>
               :
               <p>{username} is an unknown animal that hails from an unknown land.</p>
             }
