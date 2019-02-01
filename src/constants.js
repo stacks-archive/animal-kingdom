@@ -204,5 +204,17 @@ export const OTHER_KINGDOMS = [
   {
       app: 'https://adoring-yalow-cca026.netlify.com',
       ruler: 'edhenderson.id.blockstack'
+  },
+  {
+      app: 'https://hopeful-lamport-75d72a.netlify.com',
+      ruler: 'bradyisom.id.blockstack'
+  },
+  {
+      app: 'https://world-needs-animals.netlify.com',
+      ruler: 'renegmed.id.blockstack'
+  },
+  {
+      app: 'https://hopeful-mcclintock-559a85.netlify.com',
+      ruler: 'bartonij.id.blockstack'
   }
 ]
