@@ -17,4 +17,7 @@ jobs:
       - run: 
           name: Build application
           command: CI=false npm run build
+      - run:
+          name: Copy of cors
+          command: `cp cors/_* build`
    
