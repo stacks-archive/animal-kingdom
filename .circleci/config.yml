@@ -17,13 +17,8 @@ jobs:
 
     steps:
       - checkout
-      - run: npm install
+      - run: 
+        name: Install Dependencies
+        command: npm install
+      # test
       - run: npm run build
-
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
-
-      # run tests!
-      # - run: yarn test
