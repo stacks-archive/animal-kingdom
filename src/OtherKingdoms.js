@@ -32,6 +32,7 @@ class OtherKingdoms extends Component {
           subjects: [],
           app: kingdom.app
         }
+
         this.setState({ kingdoms })
         return loadSubjects(this.userSession, kingdom.ruler, kingdom.app)
         .then(subjects => {
@@ -80,11 +81,12 @@ class OtherKingdoms extends Component {
             :
             <div>
             {kingdoms.map((kingdom, index) => {
-
               const protocol = kingdom.app.split('//')[0]
               const hostname = kingdom.app.split('//')[1]
               const planet = kingdom.app
-              const animal = kingdom.error ? '' : kingdom.ruler.data.animal
+              const ruler = kingdom.error ? '' : kingdom.ruler
+              const data = ruler ? ruler.data : ''
+              const animal = data ? data.animal : ''
               if (kingdom.error) {
                 return (
                   <div
@@ -105,7 +107,7 @@ class OtherKingdoms extends Component {
                     key={index}
                   >
                     <div class="d-flex w-100 justify-content-between">
-                      <h5 class="mb-1">{ kingdom.ruler.username } the { animal.name }'s kingdom</h5>
+                      <h5 class="mb-1">{ kingdom.ruler.username } the { animal ? animal.name : '' }'s kingdom</h5>
                       <span class="badge badge-primary badge-pill" title="Subjects">{ kingdom.subjects.length }</span>
                     </div>
                     <p class="mb-1">From planet { planet }</p>
