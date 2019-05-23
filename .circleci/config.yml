@@ -16,7 +16,5 @@ jobs:
       # test
       - run: 
           name: Build application
-          command: npm run build
-          environment:
-            CI: false
+          command: CI=false npm run build
    
