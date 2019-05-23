@@ -5,20 +5,15 @@
 version: 2
 jobs:
   build:
-    macos:  # indicate that we are using the macOS executor
+    macos:
       xcode: "10.0.0" # indicate our selected version of Xcode
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mongo:3.4.4
-
     working_directory: ~/repo
-
     steps:
       - checkout
-      - run: 
-        name: Install Dependencies
-        command: npm install
+      - run:
+          name: Install Dependencies
+          command: npm install
       # test
-      - run: npm run build
+      - run: 
+          name: Build application
+          command: npm run build
