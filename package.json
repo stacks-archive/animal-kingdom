@@ -1,97 +1,35 @@
 {
-  "name": "animal-kingdom",
-  "version": "1.0.0-alpha.2",
-  "private": false,
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "autoprefixer": "^9.4.5",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^10.0.1",
-    "babel-jest": "^23.6.0",
-    "babel-loader": "^8.0.5",
-    "babel-preset-react-app": "^7.0.0",
-    "babel-runtime": "6.26.0",
-    "blockstack": "19.1.0",
-    "case-sensitive-paths-webpack-plugin": "^2.1.2",
-    "chalk": "^2.4.2",
-    "css-loader": "^2.1.0",
-    "dotenv": "^6.2.0",
-    "dotenv-expand": "4.2.0",
-    "eslint": "^5.12.0",
-    "eslint-config-react-app": "^3.0.6",
-    "eslint-loader": "^2.1.1",
-    "eslint-plugin-flowtype": "^3.2.1",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.12.4",
-    "file-loader": "^3.0.1",
-    "fs-extra": "^7.0.1",
-    "html-webpack-plugin": "^4.0.0-beta.5",
-    "jest": "^23.6.0",
-    "mini-css-extract-plugin": "^0.5.0",
-    "object-assign": "4.1.1",
-    "postcss-flexbugs-fixes": "^4.1.0",
-    "postcss-loader": "^3.0.0",
-    "promise": "^8.0.2",
-    "raf": "^3.4.1",
-    "react": "^16.7.0",
-    "react-dev-utils": "^7.0.1",
-    "react-dom": "^16.7.0",
+    "blockstack": "^19.0.1",
+    "bootstrap": "^4.3.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-router-dom": "^4.3.1",
-    "resolve": "^1.9.0",
-    "style-loader": "^0.23.1",
-    "sw-precache-webpack-plugin": "^0.11.5",
-    "terser-webpack-plugin": "^1.2.1",
-    "url-loader": "^1.1.2",
-    "webpack": "^4.28.4",
-    "webpack-dev-server": "^3.1.14",
-    "webpack-manifest-plugin": "^2.0.4",
-    "whatwg-fetch": "^3.0.0"
+    "react-scripts": "3.0.1",
+    "typescript": "^3.5.1"
   },
   "scripts": {
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx,mjs}"
-    ],
-    "setupFiles": [
-      "<rootDir>/config/polyfills.js"
-    ],
-    "testMatch": [
-      "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
-      "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}"
-    ],
-    "testEnvironment": "node",
-    "testURL": "http://localhost",
-    "transform": {
-      "^.+\\.(js|jsx|mjs)$": "<rootDir>/node_modules/babel-jest",
-      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
-      "^(?!.*\\.(js|jsx|mjs|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
-    },
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
-    ],
-    "moduleNameMapper": {
-      "^react-native$": "react-native-web"
-    },
-    "moduleFileExtensions": [
-      "web.js",
-      "js",
-      "json",
-      "web.jsx",
-      "jsx",
-      "node",
-      "mjs"
-    ]
-  },
-  "babel": {
-    "presets": [
-      "react-app"
-    ]
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
