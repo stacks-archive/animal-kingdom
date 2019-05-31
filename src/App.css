@@ -10,8 +10,8 @@ body {
 
 .btn-primary {
   color: #FFFFFF;
-  background-color: rgb(33, 31, 109);
-  border: 0;
+  background-color: rgb(33, 31, 109) !important;
+  border: 0 !important;
 }
 
 .btn-primary:hover {

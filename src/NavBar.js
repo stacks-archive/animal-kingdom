@@ -7,7 +7,7 @@ class NavBar extends Component {
   render() {
     const username = this.props.username
     return (
-<nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+<nav className="navbar navbar-expand-md navbar-dark bg-blue fixed-top">
 <Link className="navbar-brand" to="/">Animal Kingdom</Link>
 
 <div className="collapse navbar-collapse" id="navbarsExampleDefault">
