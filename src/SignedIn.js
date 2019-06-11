@@ -20,6 +20,8 @@ class SignedIn extends Component {
       savingMe: false,
       savingKingdown: false,
       redirectToMe: false
+      //selectedAnimal: false,
+      //selectedTerritory: false
     }
 
     this.loadMe = this.loadMe.bind(this)
@@ -40,7 +42,6 @@ class SignedIn extends Component {
         this.setState({me, redirectToMe: false})
       } else {
         const me = null
-
         this.setState({me, redirectToMe: true})
       }
     })
@@ -51,7 +52,7 @@ class SignedIn extends Component {
     const options = { encrypt: false }
     this.userSession.putFile(ME_FILENAME, JSON.stringify(me), options)
     .finally(() => {
-      this.setState({savingMe: false})
+      this.setState({savingMe: false, redirectToMe: false})
     })
   }
 
@@ -116,6 +117,8 @@ class SignedIn extends Component {
                   me={me}
                   saveMe={this.saveMe}
                   username={username}
+                  //selectedAnimal={this.props.selectedAnimal}
+                  //selectedTerritory={this.props.selectedAnimal}
                   {...routeProps} />
                 }
               />
