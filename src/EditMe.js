@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import './EditMe.css'
 import Card from './Card'
-import { ANIMALS, TERRITORIES } from './constants'
+import { ANIMALS, TERRITORIES, ME_FILENAME } from './constants'
 
 class EditMe extends Component {
 
@@ -10,11 +10,28 @@ class EditMe extends Component {
     super(props)
     this.selectAnimal = this.selectAnimal.bind(this)
     this.selectTerritory = this.selectTerritory.bind(this)
+
     this.state = {
       selectedAnimal: false,
       selectedTerritory: false
     }
+    
+    this.loadMe = this.loadMe.bind(this)
+
   }
+
+  componentWillMount() {
+    this.loadMe()
+  }
+
+  loadMe() {
+    if(this.props.me) {
+        this.setState({selectedAnimal: true, selectedTerritory: true})
+      } else {
+        this.setState({selectedAnimal: false, selectedTerritory: false})
+      }
+  }
+  
 
   selectAnimal(e, animal) {
     e.preventDefault()
@@ -28,6 +45,7 @@ class EditMe extends Component {
     this.props.saveMe(Object.assign({}, this.props.me, { territory }))
   }
 
+
   render() {
     const me = this.props.me
     let myAnimal = null
@@ -36,7 +54,7 @@ class EditMe extends Component {
       myAnimal = this.props.me.animal
       myTerritory = this.props.me.territory
     }
-    const selectedAnimal = this.state.selectedAnimal
+    const selectedAnimal = this.state.selectedAnimal 
     const selectedTerritory = this.state.selectedTerritory
     const completed = selectedAnimal && selectedTerritory
     const username = this.props.username
@@ -68,7 +86,8 @@ class EditMe extends Component {
         <div className="container row">
           <div className="col-lg-12 done">
             <p>
-              <Link to={`/kingdom/${username}`} className="btn btn-primary" disabled={!completed}>Done</Link>
+              <Link to={completed?`/kingdom/${username}`:`/me`} 
+                    className="btn btn-primary">Done</Link>
             </p>
           </div>
         </div>
@@ -76,5 +95,6 @@ class EditMe extends Component {
     );
   }
 }
+
 
 export default EditMe
