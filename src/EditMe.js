@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import './EditMe.css'
 import Card from './Card'
-import { ANIMALS, TERRITORIES, ME_FILENAME } from './constants'
+import { ANIMALS, TERRITORIES } from './constants'
 
 class EditMe extends Component {
 
