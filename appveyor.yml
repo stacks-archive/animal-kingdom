@@ -1,0 +1,10 @@
+
+environment:
+  nodejs_version: 10
+  process.env.CIL: false
+install:
+- cmd: >-
+    npm install
+build_script:
+- cmd: >-
+    npm run build
