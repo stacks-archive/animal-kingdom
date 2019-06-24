@@ -748,5 +748,73 @@ export const OTHER_KINGDOMS = [
     {
         app: 'https://elegant-ardinghelli-75ae9a.netlify.com',
         ruler: 'andrasfeher.id.blockstack'
+    },
+    {
+        app: 'https://laughing-heisenberg-a87a8f.netlify.com',
+        ruler: 'volucris.id.blockstackDOFUSER'
+    },
+    {
+        app: 'https://confident-colden-2a5eb4.netlify.com',
+        ruler: 'shanekmoore.id.blockstack'
+    },
+    {
+        app: 'https://gifted-elion-8ce162.netlify.com',
+        ruler: 'bakingpi_blockstack.id.blockstack'
+    },
+    {
+        app: 'https://zealous-mclean-75304f.netlify.com',
+        ruler: 'trevorclohessy.id.blockstack'
+    },
+    {
+        app: 'https://compassionate-fermat-7b0a0b.netlify.com',
+        ruler: 'abedrapo.id.blockstack'
+    },
+    {
+        app: 'https://compassionate-fermat-7b0a0b.netlify.com',
+        ruler: 'eabedrapo.id.blockstack'
+    },
+    {
+        app: 'https://inspiring-swartz-b34c0e.netlify.com',
+        ruler: 'samrobbins.id.blockstack'
+    },
+    {
+        app: 'https://hungry-brown-7cce75.netlify.com',
+        ruler: 'abdulmuqeeth.id.blockstack'
+    },
+    {
+        app: 'https://dreamy-edison-0a9b55.netlify.com',
+        ruler: 'kingbodhi.id.blockstack'
+    },
+    {
+        app: 'https://modest-dijkstra-a9343c.netlify.com',
+        ruler: 'oneloves.id.blockstack'
+    },
+    {
+        app: 'https://quirky-chandrasekhar-0a34ee.netlify.com',
+        ruler: 'dappcoder.id.blockstack'
+    },
+    {
+        app: 'https://docky-meninsky-b5f573.netlify.com',
+        ruler: 'psgganesh.id.blockstack'
+    },
+    {
+        app: 'https://priceless-bhabha-3d5777.netlify.com',
+        ruler: 'smsunarto.id.blockstack'
+    },
+    {
+        app: 'https://tender-yalow-e16b4d.netlify.com',
+        ruler: 'gnewfield.id.blockstack'
+    },
+    {
+        app: 'https://upbeat-cray-a4b75b.netlify.com',
+        ruler: 'kookajamo.id.blockstack'
+    },
+    {
+        app: 'https://nostalgic-darwin-f50fab.netlify.com',
+        ruler: 'varalawraga.id.blockstack'
+    },
+    {
+        app: 'https://silly-clarke-a3f96f.netlify.com',
+        ruler: 'ddorman.id'
     }
 ]
