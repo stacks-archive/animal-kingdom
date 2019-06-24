@@ -816,5 +816,13 @@ export const OTHER_KINGDOMS = [
     {
         app: 'https://silly-clarke-a3f96f.netlify.com',
         ruler: 'ddorman.id'
+    },
+    {
+        app: 'https://quirky-meitner-22ea5a.netlify.com',
+        ruler: 'praepunctis.id.blockstack'
+    },
+    {
+        app: 'https://festive-goldstine-7168c0.netlify.com',
+        ruler: 'aceparis32.id.blockstack'
     }
 ]
