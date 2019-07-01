@@ -882,10 +882,6 @@ export const OTHER_KINGDOMS = [
         ruler: 'amolpatil.id.blockstack'
     },
     {
-        app: 'https://pedantic-booth-c44f02.netlify.com',
-        ruler: 'muntaser4.id.blockstack'
-    },
-    {
         app: 'https://play-blockstack-animal-kingdom.netlify.com',
         ruler: 'mrwindmills.id.blockstack'
     }
