@@ -824,5 +824,69 @@ export const OTHER_KINGDOMS = [
     {
         app: 'https://festive-goldstine-7168c0.netlify.com',
         ruler: 'aceparis32.id.blockstack'
+    },
+    {
+        app: 'https://competent-clarke-7f7d25.netlify.com',
+        ruler: 'aaron_avatm.id.blockstack'
+    },
+    {
+        app: 'https://sleepy-chandrasekhar-f3beb4.netlify.com',
+        ruler: 'davidjegan.id.blockstack'
+    },
+    {
+        app: 'https://pokemonkingdom.armujahid.me',
+        ruler: 'armujahid.id.blockstack'
+    },
+    {
+        app: 'https://brave-wilson-8b6dc3.netlify.com',
+        ruler: 'alexjhyu.id.blockstack'
+    },
+    {
+        app: 'https://angry-jennings-ec278d.netlify.com',
+        ruler: 'cardboard.id.blockstack'
+    },
+    {
+        app: 'https://inspiring-spence-5714e5.netlify.com',
+        ruler: 'shadowblock.id.blockstack'
+    },
+    {
+        app: 'https://vigorous-minsky-b6a469.netlify.com',
+        ruler: 'deadcoder0904.id.blockstack'
+    },
+    {
+        app: 'https://goofy-yalow-a092bc.netlify.com',
+        ruler: 'warpsmith.id.blockstack'
+    },
+    {
+        app: 'https://goofy-yalow-a092bc.netlify.com',
+        ruler: 'warpsmith.id.blockstack'
+    },
+    {
+        app: 'https://pedantic-lumiere-b1877a.netlify.com',
+        ruler: 'imdpkjangind.id.blockstack'
+    },
+    {
+        app: 'https://thirsty-mcnulty-237372.netlify.com',
+        ruler: 'adoankim.id.blockstack'
+    },
+    {
+        app: 'https://optimistic-kare-baec0e.netlify.com',
+        ruler: 'williamyu.id.blockstack'
+    },
+    {
+        app: 'https://elegant-lalande-b83d6b.netlify.com',
+        ruler: 'jamesshiow.id.blockstack'
+    },
+    {
+        app: 'https://priceless-darwin-73bdf1.netlify.com',
+        ruler: 'amolpatil.id.blockstack'
+    },
+    {
+        app: 'https://pedantic-booth-c44f02.netlify.com',
+        ruler: 'muntaser4.id.blockstack'
+    },
+    {
+        app: 'https://play-blockstack-animal-kingdom.netlify.com',
+        ruler: 'mrwindmills.id.blockstack'
     }
 ]
