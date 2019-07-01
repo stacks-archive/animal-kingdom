@@ -884,5 +884,9 @@ export const OTHER_KINGDOMS = [
     {
         app: 'https://play-blockstack-animal-kingdom.netlify.com',
         ruler: 'mrwindmills.id.blockstack'
+    },
+    {
+        app: 'https://nervous-beaver-d0848d.netlify.com',
+        ruler: 'blocktestt.id.blockstack'
     }
 ]
