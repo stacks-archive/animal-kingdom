@@ -888,5 +888,29 @@ export const OTHER_KINGDOMS = [
     {
         app: 'https://nervous-beaver-d0848d.netlify.com',
         ruler: 'blocktestt.id.blockstack'
+    },
+    {
+        app: 'https://fervent-kalam-a029a8.netlify.com',
+        ruler: 'mattwalter.id.blockstack'
+    },
+    {
+        app: 'https://stupefied-galileo-a23377.netlify.com',
+        ruler: 'kumailrizvi.id.blockstack'
+    },
+    {
+        app: 'https://boring-bohr-1651c7.netlify.com',
+        ruler: 'petikovacs.id.blockstack'
+    },
+    {
+        app: 'https://musing-bassi-80f714.netlify.com',
+        ruler: 'nimrujim.id.blockstack'
+    },
+    {
+        app: 'https://focused-payne-a74052.netlify.com',
+        ruler: 'al002042.id.blockstack'
+    },
+    {
+        app: 'https://mystifying-wiles-555dcb.netlify.com',
+        ruler: 'opheliagame.id.blockstack'
     }
 ]
