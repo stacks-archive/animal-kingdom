@@ -912,5 +912,37 @@ export const OTHER_KINGDOMS = [
     {
         app: 'https://mystifying-wiles-555dcb.netlify.com',
         ruler: 'opheliagame.id.blockstack'
+    },
+    {
+        app: 'https://laughing-pare-7b4420.netlify.com',
+        ruler: 'bictoiner.id.blockstack'
+    },
+    {
+        app: 'https://hungry-liskov-cc96d8.netlify.com',
+        ruler: 'craigusr.id.blockstack'
+    },
+    {
+        app: 'https://practical-blackwell-cbd234.netlify.com',
+        ruler: 'samuraicode.id.blockstack'
+    },
+    {
+        app: 'https://blokckchainserviceapp.netlify.com',
+        ruler: 'blockchainserviceapp.id.blockstack'
+    },
+    {
+        app: 'https://stoic-pike-20eba4.netlify.com',
+        ruler: 'grahamulator.id.blockstack'
+    },
+    {
+        app: 'https://keen-feynman-e9f2e4.netlify.com',
+        ruler: 'anuppani.id.blockstack'
+    },
+    {
+        app: 'https://xenodochial-gates-9c514b.netlify.com',
+        ruler: 'omardubb.id.blockstack'
+    },
+    {
+        app: 'https://eager-kalam-54104d.netlify.com',
+        ruler: 'mcarthur.id.blockstack'
     }
 ]
