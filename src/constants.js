@@ -968,5 +968,33 @@ export const OTHER_KINGDOMS = [
     {
         app: 'https://animal-kingdoms.netlify.com',
         ruler: 'baunesworld.id.blockstack'
+    },
+    {
+        app: 'https://unruffled-swirles-8c800c.netlify.com',
+        ruler: 'teunvansambeek.id.blockstack'
+    },
+    {
+        app: 'https://quizzical-raman-b26675.netlify.com',
+        ruler: 'nullboots.id.blockstack'
+    },
+    {
+        app: 'https://nifty-murdock-36d05c.netlify.com',
+        ruler: 'harshjain.id.blockstack'
+    },
+    {
+        app: 'https://optimistic-chandrasekhar-45b84d.netlify.com',
+        ruler: 'noahkirsch.id.blockstack'
+    },
+    {
+        app: 'https://heuristic-clarke-7a7159.netlify.com',
+        ruler: 'ygbdevid.id.blockstack'
+    },
+    {
+        app: 'https://gracious-curran-893dfa.netlify.com',
+        ruler: 'sodosopa.id.blockstack'
+    },
+    {
+        app: 'https://suspicious-lichterman-145b39.netlify.com',
+        ruler: 'cerealenthusiast.id.blockstack'
     }
 ]
