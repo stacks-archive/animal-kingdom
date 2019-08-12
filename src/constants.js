@@ -1056,5 +1056,53 @@ export const OTHER_KINGDOMS = [
     {
         app: 'https://zealous-goodall-25bbdd.netlify.com',
         ruler: 'sanjaysb.id.blockstack'
+    },
+    {
+        app: 'https://inspiring-ritchie-b8edfa.netlify.com',
+        ruler: 'pricardo.id.blockstack'
+    },
+    {
+        app: 'https://hardcore-boyd-c8f471.netlify.com',
+        ruler: 'thxbr549.id.blockstack'
+    },
+    {
+        app: 'https://frosty-jepsen-94536a.netlify.com',
+        ruler: 'smitjivani.id.blockstack'
+    },
+    {
+        app: 'https://eager-stonebraker-0ccefb.netlify.com',
+        ruler: 'jingtying.id.blockstack'
+    },
+    {
+        app: 'https://angry-hawking-803cf7.netlify.com',
+        ruler: 'pradamabhi.id.blockstack'
+    },
+    {
+        app: 'https://cocky-jang-6fa9ba.netlify.com',
+        ruler: 'seshnsesh.id.blockstack'
+    },
+    {
+        app: 'https://serene-shannon-84c47b.netlify.com',
+        ruler: 'darrengibney.id.blockstock'
+    },
+    {
+        app: 'https://gallant-ramanujan-3ff903.netlify.com',
+        ruler: 'ashish_singhal.id.blockstack'
+    },
+    {
+        app: 'https://unruffled-cray-7d9e79.netlify.com',
+        ruler: 'hellotest.id.blockstack'
+    },
+    {
+        app: 'https://adoring-davinci-3e53eb.netlify.com',
+        ruler: 'vincentholland.onename.id'
+    },
+    {
+        app: 'https://compassionate-lumiere-021ec1.netlify.com',
+        ruler: 'kachilero.id.blockstack'
+    },
+    {
+        app: 'https://inspiring-kowalevski-8dba54.netlify.com',
+        ruler: 'connordunham.id.blockstack'
     }
 ]
