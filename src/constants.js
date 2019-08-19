@@ -1104,5 +1104,101 @@ export const OTHER_KINGDOMS = [
     {
         app: 'https://inspiring-kowalevski-8dba54.netlify.com',
         ruler: 'connordunham.id.blockstack'
+    },
+    {
+        app: 'https://brave-poincare-304966.netlify.com',
+        ruler: 'bmanczak.id.blockstack'
+    },
+    {
+        app: 'https://nostalgic-dijkstra-f9758d.netlify.com',
+        ruler: 'aymentoumi.id.blockstack'
+    },
+    {
+        app: 'https://elastic-wing-d76b60.netlify.com',
+        ruler: 'andrewbrudnak.id.blockstack'
+    },
+    {
+        app: 'https://ajithanand.netlify.com',
+        ruler: 'ajithanand.id.blockstack'
+    },
+    {
+        app: 'https://fervent-boyd-29d884.netlify.com',
+        ruler: 'shelbydiamond518.id.blockstack'
+    },
+    {
+        app: 'https://focused-murdock-5b7c58.netlify.com',
+        ruler: 'zainraza.id.blockstack'
+    },
+    {
+        app: 'https://maya-animal-kingdom.netlify.com',
+        ruler: 'notalephzero.id.blockstack'
+    },
+    {
+        app: 'https://omeranimalkingdom.netlify.com',
+        ruler: 'omercompany.id.blockstack'
+    },
+    {
+        app: 'https://tender-hypatia-da2646.netlify.com',
+        ruler: 'masgrebnesor.id.blockstack'
+    },
+    {
+        app: 'https://affectionate-neumann-35fa68.netlify.com',
+        ruler: 'marcos19.id.blockstack'
+    },
+    {
+        app: 'https://musing-hamilton-01b31a.netlify.com',
+        ruler: 'adityabp721.id.blockstack'
+    },
+    {
+        app: 'https://wonderful-beaver-325c6f.netlify.com',
+        ruler: 'spaulding.id.blockstack'
+    },
+    {
+        app: 'https://loving-wing-2bebe3.netlify.com',
+        ruler: 'cargeins90.id.blockstack'
+    },
+    {
+        app: 'https://brave-mahavira-d8b9c3.netlify.com',
+        ruler: 'samadmoiz.id.blockstack'
+    },
+    {
+        app: 'https://animal-kingdom-by-codelaryna.netlify.com',
+        ruler: 'codelaryna.id.blockstack'
+    },
+    {
+        app: 'https://fervent-minsky-cd3cf9.netlify.com',
+        ruler: 'chris_jones.id.blockstack'
+    },
+    {
+        app: 'https://modest-engelbart-0eec5f.netlify.com',
+        ruler: 'brucechristie.id.blockstack'
+    },
+    {
+        app: 'https://sleepy-edison-00e58f.netlify.com',
+        ruler: 'teamomucho.id.blockstack'
+    },
+    {
+        app: 'https://infallible-brattain-c0f919.netlify.com',
+        ruler: 'jabaribell.id.blockstack'
+    },
+    {
+        app: 'https://animal-kingdom.now.sh',
+        ruler: 'ahmed_belhadj.id.blockstack'
+    },
+    {
+        app: 'https://app.netlify.com/sites/dazzling-benz-e9613a',
+        ruler: 'alearningbee.id.blockstack'
+    },
+    {
+        app: 'https://hopeful-jang-c9ce1c.netlify.com',
+        ruler: 'therealaverma.id.blockstack'
+    },
+    {
+        app: 'https://cheesecake-mice.netlify.com',
+        ruler: 'darthito00.id.blockstack'
+    },
+    {
+        app: 'https://vedicastrology.netlify.com',
+        ruler: 'vedicastrology.id.blockstack'
     }
 ]
