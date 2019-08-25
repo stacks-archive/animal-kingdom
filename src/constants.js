@@ -1200,5 +1200,46 @@ export const OTHER_KINGDOMS = [
     {
         app: 'https://vedicastrology.netlify.com',
         ruler: 'vedicastrology.id.blockstack'
+    },
+    {
+        app: 'https://infallible-ardinghelli-d10b25.netlify.com',
+        ruler: 'mukaissi.id.blockstac'
+    },
+    {
+        app: 'https://nostalgic-noyce-bbfa1e.netlify.com',
+        ruler: 'clairesinozich.id.blockstack'
+    },
+    {
+        app: 'https://boring-booth-f1c5e6.netlify.com',
+        ruler: 'ryanckulp.id'
+    },
+    {
+        app: 'https://admiring-ptolemy-ec6214.netlify.com',
+        ruler: 'goodydev.id.blockstack'
+    },
+    {
+        app: 'https://shadowhunter-kingdom.netlify.com',
+        ruler: 'magnus_p8.id.blockstack'
+    },
+    {
+        app: 'https://wonderful-poincare-10850e.netlify.com',
+        ruler: 'doctrina.id.blockstack'
+    },
+    {
+        app: 'https://boring-bhaskara-dfa4f0.netlify.com',
+        ruler: 'ruwikmann.id.blockstack'
+    },
+    {
+        app: 'https://determined-khorana-035527.netlify.com',
+        ruler: 'blockychris.id.blockstack'
+    },
+    {
+        app: 'https://pedantic-lamport-771322.netlify.com',
+        ruler: 'raymonddeng.id.blockstack'
+    },
+    {
+        app: 'https://lucid-tereshkova-d5b7ef.netlify.com',
+        ruler: 'dcblackhouse.id.blockstack'
     }
+    
 ]
