@@ -1440,5 +1440,49 @@ export const OTHER_KINGDOMS = [
     {
         app: 'https://xenodochial-engelbart-bdee50.netlify.com',
         ruler: 'treycwong.id.blockstack'
+    },
+    {
+        app: 'https://elated-haibt-ebcdb9.netlify.com',
+        ruler: 'onlygregor.id.blockstack'
+    },
+    {
+        app: 'https://trusting-jepsen-2d4e16.netlify.com',
+        ruler: 'rexben001.id.blockstack'
+    },
+    {
+        app: 'https://xenodochial-khorana-a3631a.netlify.com',
+        ruler: 'rickjohn.id.blockstack'
+    },
+    {
+        app: 'https://trusting-yalow-75bf93.netlify.com',
+        ruler: 'aminukano.id.blockstack'
+    },
+    {
+        app: 'https://nifty-engelbart-64b745.netlify.com',
+        ruler: 'danielmartin.id.blockstack'
+    },
+    {
+        app: 'https://festive-bartik-136d47.netlify.com',
+        ruler: 'mikespellcheck.id.blockstack'
+    },
+    {
+        app: 'https://xenodochial-goldstine-04ec71.netlify.com',
+        ruler: 'qrodgers.id.blockstack'
+    },
+    {
+        app: 'https://zealous-curie-1c5d61.netlify.com',
+        ruler: 'nimbustwothousand.id.blockstack'
+    },
+    {
+        app: 'https://distracted-boyd-be788c.netlify.com',
+        ruler: 'samiracle.id.blockstack'
+    },
+    {
+        app: 'https://frosty-mccarthy-76c1fd.netlify.com/kingdom',
+        ruler: 'lillithrose.id.blockstack'
+    },
+    {
+        app: 'https://keen-dubinsky-2a34f4.netlify.com',
+        ruler: 'sparag90.id.blockstack'
     }
 ]
