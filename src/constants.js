@@ -1496,6 +1496,29 @@ export const OTHER_KINGDOMS = [
     {
         app: 'https://relaxed-jackson-680632.netlify.com',
         ruler: 'andrewdeal.id.blockchain'
+    },
+    {
+        app: 'https://nimalssanssans.netlify.com',
+        ruler: 'cjlucido.id.blockstack'
+    },
+    {
+        app: 'https://gifted-hermann-02ef62.netlify.com',
+        ruler: 'Iflvegath.id.blockstack'
+    },
+    {
+        app: 'https://distracted-swirles-f624ce.netlify.com',
+        ruler: 'ranjhith.id.blockstack'
+    },
+    {
+        app: 'https://stoic-lovelace-9328c2.netlify.com',
+        ruler: 'suragusheth.id.blockstack'
+    },
+    {
+        app: 'https://friendly-stonebraker-b91ed0.netlify.com',
+        ruler: 'rajkumar.id.blockstack'
+    },
+    {
+        app: 'https://priceless-lichterman-b8ccca.netlify.com',
+        ruler: 'kristens.id.blockstack'
     }
-    
 ]
