@@ -96,7 +96,7 @@ class OtherKingdoms extends Component {
                     <div class="d-flex w-100 justify-content-between">
                       <h5 class="mb-1">{ kingdom.ruler.username }'s kingdom can't be reached</h5>
                     </div>
-                    <p class="mb-1">Is the planet { planet } under siege?</p>
+                    <p class="mb-1">Is the kingdom { planet } under siege?</p>
                   </div>
                 )
               } else {
@@ -107,10 +107,10 @@ class OtherKingdoms extends Component {
                     key={index}
                   >
                     <div class="d-flex w-100 justify-content-between">
-                      <h5 class="mb-1">{ kingdom.ruler.username } the { animal ? animal.name : '' }'s kingdom</h5>
+                      <h5 class="mb-1">Ruler { kingdom.ruler.username } the { animal ? animal.name : '' }'s kingdom:</h5>
                       <span class="badge badge-primary badge-pill" title="Subjects">{ kingdom.subjects.length }</span>
                     </div>
-                    <p class="mb-1">From planet { planet }</p>
+                    <p class="mb-1">Is here: { planet }</p>
                   </Link>
                 )
               }
