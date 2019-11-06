@@ -1588,5 +1588,41 @@ export const OTHER_KINGDOMS = [
     {
         app: 'https://brave-goldberg-f93558.netlify.com',
         ruler: 'arjunangepat.id.blockstack'
-    }   
+    },
+    {
+        app: 'https://gifted-kirch-dea874.netlify.com',
+        ruler: 'fenrir09.id.blockstack'
+    },
+    {
+        app: 'https://determined-darwin-f5fd6e.netlify.com',
+        ruler: 'sidpanda99.id.blockstack'
+    },
+    {
+        app: 'https://ecstatic-mclean-51747c.netlify.com',
+        ruler: 'sikandar.id.blockstack'
+    },
+    {
+        app: 'https://nervous-visvesvaraya-ca4d28.netlify.com',
+        ruler: 'brandonly.id.blockstack'
+    },
+    {
+        app: 'https://clever-mccarthy-684c68.netlify.com',
+        ruler: 'swapnil76.id.blockstack'
+    },
+    {
+        app: 'https://dreamy-williams-f816e9.netlify.com',
+        ruler: 'wuhongyu.id.blockstack'
+    },
+    {
+        app: 'https://eloquent-heyrovsky-bd9466.netlify.com',
+        ruler: 'evgenyboxer.id.blockstack'
+    },
+    {
+        app: 'https://romantic-brattain-a4c4ea.netlify.com',
+        ruler: 'patipravat.id.blockstack'
+    },
+    {
+        app: 'https://focused-swartz-1bb452.netlify.com',
+        ruler: 'khoanguyen.id.blockstack'
+    }
 ]
