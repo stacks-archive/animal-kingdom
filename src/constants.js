@@ -1624,5 +1624,57 @@ export const OTHER_KINGDOMS = [
     {
         app: 'https://focused-swartz-1bb452.netlify.com',
         ruler: 'khoanguyen.id.blockstack'
+    },
+    {
+        app: 'https://agitated-lovelace-35002e.netlify.com',
+        ruler: 'andersonasaurus.id.blockstack'
+    },
+    {
+        app: 'https://laughing-tesla-a26008.netlify.com',
+        ruler: 'karansag.id.blockstack'
+    },
+    {
+        app: 'https://stupefied-sammet-b2fb08.netlify.com',
+        ruler: 'bmwcrypto.id.blockstack'
+    },
+    {
+        app: 'https://goofy-bell-2be334.netlify.com',
+        ruler: 'emilianog.id.blockstack'
+    },
+    {
+        app: 'https://cocky-colden-84424a.netlify.com',
+        ruler: 'thisisbatman.id.blockstack'
+    },
+    {
+        app: 'https://modest-thompson-1115f9.netlify.com',
+        ruler: 'shashankr.id.blockstack'
+    },
+    {
+        app: 'https://eager-mirzakhani-.netlify.com',
+        ruler: 'finalaverage.id.blockstack'
+    },
+    {
+        app: 'https://amazing-bohr-2424b6.netlify.com',
+        ruler: 'jamesmartin.id.blockstack'
+    },
+    {
+        app: 'https://shadowborn-kingdom.netlify.com',
+        ruler: 'shadowborn.id.blockstack'
+    },
+    {
+        app: 'https://wonderful-shirley-e3e9d0.netlify.com',
+        ruler: 'm_b_cool.id.blockstack'
+    },
+    {
+        app: 'https://nervous-darwin-51bdfe.netlify.com',
+        ruler: 'nickmcguire.id.blockstack'
+    },
+    {
+        app: 'https://objective-kepler-996ef4.netlify.com',
+        ruler: 'thejoshcooter.id.blockstack'
+    },
+    {
+        app: 'https://pedantic-nightingale-bc34d4.netlify.com',
+        ruler: 'shishirsingh.id.blockstack'
     }
 ]
