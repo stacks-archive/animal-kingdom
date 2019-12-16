@@ -15,7 +15,7 @@ You can browse kingdoms on other instances and forks of this apps from the other
 
 Information about each animal and the subjects in a kingdom is loaded from
 the creating user's Gaia storage. Images of the animal persona and territories
-are loaded from the instance of the app where the were created.
+are loaded from the instance of the app where they were created.
 
 
 ## Developer customization
