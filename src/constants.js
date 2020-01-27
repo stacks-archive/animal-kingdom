@@ -1824,5 +1824,9 @@ export const OTHER_KINGDOMS = [
     {
         app: 'https://suspicious-elion-bb2fd5.netlify.com',
         ruler: 'sayanide.id.blockstack'
+    },
+    {
+        app: 'https://epic-lalande-57a6c8.netlify.com',
+        ruler: 'chayan19.id.blockstack'
     }                        
  ]
