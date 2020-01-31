@@ -15,7 +15,7 @@ class OtherKingdoms extends Component {
     this.resolveKingdoms = this.resolveKingdoms.bind(this)
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.resolveKingdoms()
   }
 
