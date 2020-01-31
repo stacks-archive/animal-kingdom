@@ -29,7 +29,7 @@ class SignedIn extends Component {
     this.signOut = this.signOut.bind(this)
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.loadMe()
   }
 

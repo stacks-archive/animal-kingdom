@@ -12,7 +12,7 @@ class App extends Component {
     this.userSession = new UserSession()
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     const session = this.userSession
     if(!session.isUserSignedIn() && session.isSignInPending()) {
       session.handlePendingSignIn()

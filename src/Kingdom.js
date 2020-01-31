@@ -34,7 +34,7 @@ class Kingdom extends Component {
     this.loadKingdom = this.loadKingdom.bind(this)
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     const app = this.state.app
     const ruler = this.props.ruler
     this.loadKingdom(ruler, app)
@@ -48,7 +48,7 @@ class Kingdom extends Component {
     }
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     const nextSubjects = nextProps.subjects
     if(nextSubjects) {
       if (nextSubjects.length !== this.state.subjects.length) {

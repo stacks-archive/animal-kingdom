@@ -20,7 +20,7 @@ class EditMe extends Component {
 
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.loadMe()
   }
 
