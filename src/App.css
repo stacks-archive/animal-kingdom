@@ -9,7 +9,7 @@ body {
 }
 
 .btn-primary {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgb(33, 31, 109) !important;
   border: 0 !important;
 }
@@ -19,7 +19,8 @@ body {
   border: 0;
 }
 
-.btn-primary.disabled, .btn-primary:disabled {
+.btn-primary.disabled,
+.btn-primary:disabled {
   opacity: 0.5;
   background-color: rgb(135, 172, 196);
 }
